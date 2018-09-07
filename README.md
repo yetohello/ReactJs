@@ -1,3 +1,7 @@
+#ref函数
+---
+### ref函数可以直接操作DOM节点，不建议使用，当在必须时候非常方便
+
 # 生命周期函数：
 ### 指某一时刻组件会走动调用自动执行的函数
 ---
@@ -23,7 +27,7 @@ shouldComponentUpdate (){
 	//return false; 阻止组件跟新
 }
 ```
-# 生命周期函数的四大阶段
+## 生命周期函数的四大阶段
 ----
 ### 1.Initialization : 初始化
     * setup props and state 初始化数据
