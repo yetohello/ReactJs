@@ -26,7 +26,7 @@ shouldComponentUpdate (){
 # 生命周期函数的四大阶段
 ----
 ### 1.Initialization : 初始化
-    * setup props and state	
+    * setup props and state 初始化数据
 ### 2.Mounting : 挂载
     * componentWillMount 挂载前
     * render
@@ -37,15 +37,14 @@ shouldComponentUpdate (){
 
 	    * shouldComponentUpdate : 组件更新之前 返回布尔值
 
-	    * componerntWillUpdate :  组件更新之前，在shouldComponentUpdate之后，true执行，false不执行
+	    * componerntWillUpdate :  组件更新之前，在shouldComponentUpdate()之后，true执行，false不执行
 	    * render :
 	    * componentDidUpdate : 组件更新完成之后
     * state :
 	    * shouldComponentUpdate : 组件更新之前 返回布尔值
-	    * componerntWillUpdate :  组件更新之前，在shouldComponentUpdate之后，true执行，false不执行
+	    * componerntWillUpdate :  组件更新之前，在shouldComponentUpdate()之后，true执行，false不执行
 	    * render :
 	    * componentDidUpdate : 组件更新完成之后
 		
 ### 4.Unmounting : 去除
-    * two-1
-	* componentWillUnmount : 当组件即将被从页面中去除的时候执行
+    * componentWillUnmount : 当组件即将被从页面中去除的时候执行
